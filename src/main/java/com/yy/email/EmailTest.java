@@ -8,8 +8,6 @@ import java.io.*;
 import java.util.Date;
 import java.util.Properties;
 
-import static java.lang.System.out;
-
 /**
  * Created by Administrator on 2018/3/8/008.
  */
