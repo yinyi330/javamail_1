@@ -59,7 +59,7 @@ public class EmailTest {
             message.saveChanges();
             outputStream = new FileOutputStream("MyEmail.eml");
             message.writeTo(outputStream);
-            out.flush();
+            outputStream.flush();
         } catch (MessagingException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {
